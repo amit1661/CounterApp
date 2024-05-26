@@ -1,7 +1,7 @@
 const countValue = document.getElementById("counter");
 
 function increment() {
-  // get the vlue from UI
+  // get the value from UI
   let value = parseInt(countValue.innerText);
   //Update the value
   value = value + 1;
@@ -10,7 +10,7 @@ function increment() {
 }
 
 function decrement() {
-  // get the vlue from UI
+  // get the value from UI
   let value = parseInt(countValue.innerText);
   //Update the value
   value = value - 1;
